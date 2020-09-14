@@ -77,9 +77,7 @@ client.on('messageReactionAdd', (reaction, user) => {
             case '🍇':
                 member.roles.add('738664618511171634');
                 break;
-            case '🍑':
-                member.roles.add('738664590178779167');
-                break;
+
         }
     }
 });
